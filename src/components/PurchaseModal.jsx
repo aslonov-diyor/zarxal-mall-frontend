@@ -2,7 +2,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 import { FiCopy, FiPhone, FiX } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 
-const SELLER_PHONE = import.meta.env.VITE_SELLER_PHONE || '+998 94 883 99 30';
+const SELLER_PHONE = '+998 94 883 99 30';
 
 export default function PurchaseModal({ open, onClose, perfumeName }) {
   const handleCopy = async () => {
